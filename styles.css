@@ -1,0 +1,35 @@
+body{color:rgb(5, 43, 5) font-size 14px ;
+}
+.black-border {
+    border: 5px solid rgb(110, 133, 110);
+}
+#greenbackground{
+    background-color: rgb(92, 116, 92);
+
+}
+.schdw1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgb(86, 87, 86);
+  }
+  
+.schdw2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgb(85, 95, 85);
+  }
+.schdw3 {
+      color: rgb(56, 36, 36);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgb(83, 107, 83);
+  }
+.schdw5{color:rgb(51, 87, 59) 20px}
+  .fntwit{font-family: 'Grandstander', cursive;
+    font-family: 'Oswald', sans-serif;font-size: 30px;color:white;background-color:gray;
+}
+
+h3,h1,h2
+{font-family: 'Grandstander', cursive;}
+h6
+{font-size:30px; font-family: 'Oswald', sans-serif;}
