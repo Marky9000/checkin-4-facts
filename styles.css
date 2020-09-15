@@ -1,35 +1,70 @@
-body{color:rgb(5, 43, 5) font-size 14px ;
-}
-.black-border {
-    border: 5px solid rgb(110, 133, 110);
-}
-#greenbackground{
-    background-color: rgb(92, 116, 92);
 
+
+element.style {
+  margin: 0 auto;
 }
+h4{ font-size:40px;
+  color:rgb(145, 96, 96);}
+
 .schdw1 {
-    border: 1px solid;
+  background-color:rgb(240, 226, 243);
+    border: 3px solid ;
+    border-color:rgb(88, 56, 88);
+    margin: 0 auto;
     padding: 10px;
-    box-shadow: 5px 10px rgb(86, 87, 86);
+    box-shadow:5px 7px rgb(69, 40, 80);
+  }
+
+p{margin: 0 auto;
+  padding-left : 10px;
+  padding-right: 30px ;
+  padding-bottom:20px ;
+padding-top: 20px;
+}
+h1,h2,h3
+{font-family: 'Grandstander', cursive;
+color:rgb(102, 71, 131) 30px}
+h6
+{font-size:40px; font-family: 'Oswald', sans-serif;}
+.span{width: 100px;}
+
+.fntwit{ 
+  font-family:'Grandstander';
+  color: rgb(78, 72, 72);
+  font-size: 50px;
+text-align: center;}
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
   }
   
-.schdw2 {
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px rgb(85, 95, 85);
+  li {
+    float: left;
   }
-.schdw3 {
-      color: rgb(56, 36, 36);
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px rgb(83, 107, 83);
+  
+  li a, li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
-.schdw5{color:rgb(51, 87, 59) 20px}
-  .fntwit{font-family: 'Grandstander', cursive;
-    font-family: 'Oswald', sans-serif;font-size: 30px;color:white;background-color:gray;
-}
+  
+  li a:hover {
+    background-color: #111;
+  }
 
-h3,h1,h2
-{font-family: 'Grandstander', cursive;}
-h6
-{font-size:30px; font-family: 'Oswald', sans-serif;}
+  .center {
+    text-align: center; 
+  }
+
+  .center2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
