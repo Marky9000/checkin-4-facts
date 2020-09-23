@@ -1,0 +1,187 @@
+
+
+.blogpost1 { 
+  background-color: blue;
+  width: 200px; border: 1px solid rgb(116, 90, 90); }
+  .blogpost2 { 
+    background-color:rgb(104, 113, 243);
+    width: 200px; border: 1px solid rgb(116, 90, 90); }
+    .blogpost3 { 
+      background-color:rgb(120, 123, 139);
+      width: 200px; border: 1px solid rgb(116, 90, 90); }
+      .blogpost4 { 
+        background-color:rgb(237, 243, 152);
+        width: 200px; border: 1px solid rgb(116, 90, 90); }
+        
+        
+.blogpost5 { 
+  background-color: rgb(231, 9, 113);
+  width: 200px; border: 1px solid rgb(116, 90, 90); }
+  .blogpost6 { 
+    background-color:rgb(172, 165, 167);
+    width: 200px; border: 1px solid rgb(116, 90, 90); }
+    .blogpost7 { 
+      background-color:rgb(76, 238, 238);
+      width: 200px; border: 1px solid rgb(116, 90, 90); }
+      .blogpost8 { 
+        background-color:rgb(131, 57, 57);
+        width: 200px; border: 1px solid rgb(116, 90, 90); }
+
+        .container{display:flex;
+         
+          justify-content: space-around;
+        border-style: 10px solid rgb(228, 115, 194);
+        height:100vh
+        ;
+      }
+aside{
+  width: 40%;
+  padding-left:.5rem;
+margin-left: .5rem;
+float:right;
+box-shadow: inset 20px 0 10px -10px rgb(129, 139, 138);
+font-style: italic;
+color: #29627e;}
+aside>p{margin: 5. rem;}
+element.style {
+  margin: 10 auto;
+}
+h4{ font-size:30px;
+  color:rgb(145, 96, 96);}
+.rijtje{
+  display: inline-flex;
+  width:200px;
+  margin:0 auto;
+}
+.schdw1 {
+  background-color:rgb(184, 236, 206);
+  padding:10px;
+    border: 3px solid ;
+    border-color:rgb(88, 56, 88);
+    margin:10 auto;
+    
+    box-shadow:5px 7px rgb(69, 40, 80);
+  }
+
+p{margin: 0 auto;
+  padding-left : 10px;
+  padding-right: 30px ;
+  padding-bottom:10px ;
+padding-top: 10px;
+}
+h1
+{font-family: 'Grandstander', cursive;
+color:rgb(102, 71, 131) 20px;
+text-shadow: 2px 3px #fa49d4; }
+h2,h3
+{font-family: 'Grandstander', cursive;
+color:rgb(102, 71, 131) 20px;}
+h6
+{font-size:40px; font-family: 'Oswald', sans-serif;}
+.span{width: 100px;}
+
+.fntwit{ 
+  font-family:'Grandstander';
+  color: rgb(78, 72, 72);
+  font-size: 50px;
+text-align: center;}
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ 
+  
+  li a, li {
+   
+    color: white;
+    text-align: center;
+  
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(11, 250, 51);
+  }
+ 
+  .center {
+    margin:0 auto;
+    
+    text-align: center; 
+  }
+
+  .center2{display: inline-flex;
+    justify-content: space-around;
+   }
+ hover { background-color:
+     rgb(11, 250, 51);
+  }
+
+  @media (min-width: 900px)
+   {
+    h1,h2,h3,h5
+    {font-family: 'Oswald', cursive;
+      color:rgb(217, 238, 186) 
+     14px;}
+    .schdw1 { 
+      color:rgb(243, 236, 242);
+      margin: 5px auto;
+      background-color:rgb(129, 139, 138);
+      border: 2px solid;
+      border-color:rgb(103, 134, 128);
+      box-shadow:5px 7px rgb(19, 41, 34);}
+      h1
+{
+text-shadow: 2px 3px #0cf36c; }
+   
+      h6,h5
+      {font-size:20px; font-family: 'Oswald', sans-serif;
+      color:rgb(217, 238, 186);}
+      li a, li {
+        display: block;
+        color: rgb(85, 27, 27);
+        text-align: center;}
+        
+     
+      .blogpost1 { 
+        background-color: rgb(255, 60, 0);
+        width: 200px; border: 1px solid rgb(116, 90, 90); }
+        .blogpost2 { 
+          background-color:rgb(243, 206, 104);
+          width: 200px; border: 1px solid rgb(116, 90, 90); }
+          .blogpost3 { 
+            background-color:rgb(248, 200, 188);
+            width: 200px; border: 1px solid rgb(116, 90, 90); }
+            .blogpost4 { 
+              background-color:rgb(244, 248, 4);
+              width: 200px; border: 1px solid rgb(116, 90, 90); }
+             
+              
+      .blogpost5 { 
+        background-color: rgb(245, 144, 29);
+        width: 200px; border: 1px solid rgb(116, 90, 90); }
+        .blogpost6 { 
+          background-color:rgb(26, 24, 24);
+          color:white;
+          width: 200px; border: 1px solid rgb(116, 90, 90); }
+          .blogpost7 { 
+            background-color:rgb(240, 229, 180);
+            width: 200px; border: 1px solid rgb(116, 90, 90); }
+            .blogpost8 { 
+              background-color:rgb(131, 57, 57);
+              width: 200px; border: 1px solid rgb(116, 90, 90); }
+            
+            
+
+            
+        .container{display:center;
+          justify-content: flex-start;
+          border:4px solid rgb(240, 232, 232);
+      flex-direction: row;
+
+      min-height:100vh;}
+      }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<header class="center">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,100&family=Oswald&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>WINC-opdrachtsite</title>
+
+    <div>
+    </div>
+</header>
+<h1 class="schdw1">Vul alstublieft onderstaand formulier in en verstuur:</h1>
+
+<body class="schdw1">
+    <div class="form1">
+        <form id="contact" name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Uw naam:<br> <input type="text" name="name" /></label><br>
+                <label for="birthday">uw geboortedatum:</label><br>
+                <input type="date" id="birthday" name="birthday"><br>
+                <br>
+
+                <label>Uw telefoonnummer <br><input type="tel" name="name" /></label><br>
+                <br>
+                <label>Uw leeftijd <br><input type="number" name="name" /></label><br>
+                <br>
+
+                <label>Uw Email:<br> <input type="email" name="email" /></label>
+                <br>
+
+
+            <p>Kies uw favoriete cuisine: Frans, Italiaans, Spaans of Arabisch? Maar mag ook allemaal!</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Frans">
+            <label for="vehicle1"> Frans</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Italiaans">
+            <label for="vehicle2"> Italiaans</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Spaans">
+            <label for="vehicle3"> Spaans</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Arabisch">
+            <label for="vehicle3"> Arabisch</label><br>
+
+
+            <p>Voeg uw laatste repect toe:</p>
+            <input type="file" id="myFile" name="filename"><br><br>
+
+            <label for="favcolor">Kies uw favoriete kleur:<br></label><br>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+            <p>Kies hier uw geslacht:</p>
+            <input type="radio" name="gender" value="male">man <br>
+            <input type="radio" name="gender" value="female">vrouw<br>
+            <input type="radio" name="gender" value="other"> genderneutraal<br>
+            <p>Vul hier een link naar uw website in:</p>
+            <input type="url" id="url" name="url" value="www...">
+
+            <p>
+                <label>Schrijf hier uw biografie:<br> <textarea name="message"></textarea></label>
+            </p>
+            <br>
+            <input type="button" onclick="myFunction()" value="Reset form">
+
+
+
+            <p>
+                <button type="submit">Verstuur</button>
+            </p>
+
+        </form>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("contact").reset();
+        }
+    </script>
+</body>
+
+<nav class="schdw1">
+    <a href="index.html">
+        <h6 class="center">homepage</h6>
+    </a>
+</nav>
