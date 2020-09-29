@@ -1,0 +1,71 @@
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-gap: 3px;
+ 
+  grid-template-rows: 40px 60% 25% 40px;
+  grid-template-areas: 
+      "  h h h h h h  "
+      "  m m m m m m  "
+      "  c c c c c c  " 
+      "  f f f f f f  "
+      ;
+}
+
+.site-header {
+  text-shadow: 2px 2px #696262;
+ font-family: 'Nunito', sans-serif;
+  grid-area: h;
+}
+
+.site-main { 
+  text-shadow: 2px 2px #FF0000;
+font-family: 'Nunito', sans-serif;
+  grid-area: m;
+}
+
+.widget-erea {
+  text-shadow: 2px 2px #fff7f7; font-family: 'Nunito', sans-serif;
+  grid-area: c;
+}
+
+.site-footer {text-shadow: 2px 2px #630d0d; font-family: 'Nunito', sans-serif;
+  grid-area: f;
+}
+
+
+
+  @media (min-width: 700px)
+   {
+    .container {
+      height: 100%;
+      display: grid;
+      grid-gap: 3px;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: 40px auto 40px;
+      grid-template-areas: 
+      "m m h h h h h h h h h h"
+      "m m c c c c c c c c c c"
+      "m m f f f f f f f f f f"
+         ;
+    }
+    
+}
+      
+
+@media (min-width: 1024px)
+{
+ .container {
+   height: 100%;
+   display: grid;
+   grid-gap: 3px;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: 40px auto 40px;
+   grid-template-areas: 
+
+       "m m h h h h h h h h c c"
+       "m m h h h h h h h h c c"
+       "m m f f f f f f f f c c";}
+           
+ }
