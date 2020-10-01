@@ -1,0 +1,12 @@
+aside{
+  width: 40%;
+  padding-left:.5rem;
+margin-left: .5rem;
+float:right;
+box-shadow: inset 20px 0 10px -10px rgb(129, 139, 138);
+font-style: italic;
+color: #29627e;}
+aside>p{margin: 5. rem;}
+element.style {
+  margin: 10 auto;
+}

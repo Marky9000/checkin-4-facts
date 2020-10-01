@@ -1,0 +1,141 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+h4{  color: rgb(215, 223, 203);
+  text-shadow: 2px 2px #1b7242;
+  font-size: medium;
+ font-family: 'Nunito', sans-serif;}
+
+li a {
+  display: block;float: right;
+  color: white;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(83, 243, 69);
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-gap: 3px;
+
+  grid-template-rows: 100px 25% 70% 80px;
+  grid-template-areas: 
+      " h h h h "
+      " m m m m "
+      " c c c c " 
+      " f f f f "
+      ;
+      
+}
+
+.site-header {
+  background-color: grey;
+  color: rgb(235, 245, 219);
+  text-shadow: 2px 2px #1b7242;
+ font-family: 'Nunito', sans-serif;
+  grid-area: h;
+  padding:10px;
+ 
+}
+
+.site-main { 
+  padding:7px;
+  margin: 0 auto;
+
+  background-color: lightblue;
+  text-shadow: 2px 2px #5e4d4d;
+font-family: 'Nunito', sans-serif;
+  grid-area: m;
+}
+.widget-erea {
+background-color: rgb(228, 220, 220);
+   font-family:Arial, Helvetica, sans-serif;
+  grid-area: c;
+  padding:10px;
+}
+.site-footer {
+  
+   background-color: rgb(152, 122, 173);
+   font-family: 'Nunito', sans-serif;
+  grid-area: f;
+}
+.louieimage{max-width: 100%;height:auto;}
+.tabloid {
+  max-width:75%;
+  height:auto;
+  border: 2px solid rgb(12, 241, 127);
+  box-shadow:10px 4px rgb(220, 225, 228);
+}
+.nieuws-container{
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+  text-justify: auto;
+  flex-wrap: wrap;
+
+}
+
+
+ .center{text-align: center;}
+ 
+.imagefooter{display: flex;
+float:right;}
+
+aside {
+  width: 40%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #178f35;
+}
+
+aside > p {
+  margin: .5rem;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.button {
+  background-color:#4eee7e;
+  border: none;
+  color: rgb(29, 48, 27);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+  @media (min-width: 700px)
+   {
+    .container  {
+      height: 100%;
+      display: grid;
+      grid-gap: 3px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows:100px 50% 35% 150px;
+      grid-template-areas: 
+      "h h h h"
+      "m m m m"
+      "c c c c"
+      "f f f f";
+    }
+    
+}
