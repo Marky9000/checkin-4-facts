@@ -1,0 +1,91 @@
+
+h1,h2,h3,h4{ font-family: 'Cabin', sans-serif;}
+ #carla{float: right;}
+ #marijn{float: right;}
+ .container{display: flex;
+    flex-direction: row;
+  }
+
+  h1{font-size:33px;}
+p{ color: grey}
+  h3{font-size: 28px;
+  padding:15px auto;
+margin:15px auto}
+  h4{font-size: 28px;}
+  b{29}
+h1{text-align: start;}
+  .div1{
+    display:grid;
+    grid-template-columns:75% 25%;
+    grid-template-rows:33% 33% auto;
+    grid-template-areas:
+    "h a a a"
+    "m m m m"
+    "f f f f";
+
+
+    border-radius: 10px;
+    border: 1px solid #959794;
+    padding: 20px;
+    width: 586px;
+    height: 351px;
+    margin: 10px;
+
+  }
+  .div2{
+    display:grid;
+    grid-template-columns:75% 25%;
+    grid-template-rows:33% 33% auto;
+    grid-template-areas:
+    "h a a a"
+    "m m m m"
+    "f f f f";
+
+    border-radius: 10px;
+    border: 1px solid #959794;
+    padding: 20px;
+    width: 586px;
+    height: 351px;
+    margin: 10px;
+  }
+
+  head{ float: left;
+    grid-area: h;
+    margin:10px;
+;}
+  main{ 
+    grid-area: m;
+
+  }
+  aside{grid-area: a;
+  margin:10px }
+  footer{display: flex;
+  flex-direction:row;
+  margin:auto;
+
+grid-area: f;}
+.approve{ 
+  color:green;
+  text-align: center;
+ 
+ 
+ width:261px;height: 72px;
+border:solid;
+  border-color: green;
+  border-radius: 10px 0px 0px 10px;
+  
+
+}
+.decline{ 
+  color:rgb(252, 10, 10);
+  text-align: center;
+  
+ 
+ 
+ width:261px;height: 72px;
+border:solid;
+  border-color: red;
+  border-radius: 0px 10px 10px 0px;
+  
+
+}
