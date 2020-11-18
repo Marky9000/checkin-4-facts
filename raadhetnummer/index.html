@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Welkom bij deze nummer Quizz</p>
+
+<button onclick="myFunction()">beginnen?</button>
+
+<p id="demo"></p>
+
+<script>
+    function geheimnummer(min, max) {
+    min = Math.ceil(1);
+    max = Math.floor(25);
+    return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive 
+  }
+function myFunction() {
+  var person = prompt("wat is je naam?");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+
+  var nummer = prompt("Hallo! "+ person + " , waag eens een gokje en raad een nummer tussen 0 en 25?");
+  if (nummer === geheimnummer)
+   document.getElementById("demo").innerHTML =
+    "wauw " + nummer + "is helemaal goed !";
+
+   else document.getElementById("demo").innerHTML =
+    "Awww " + nummer + " is helaas helemaal fout.........";}
+    
+
+
+  }
+
+</script>
+
+<meta http-equiv="opnieuw?" content="X; URL=page1.com">
+
+</body>
+</html>
