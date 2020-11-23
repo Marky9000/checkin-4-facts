@@ -1,0 +1,128 @@
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1rem;
+  color: rgb(33, 37, 33);
+
+  text-align: center;
+  opacity: 0.8;
+}
+.tekst1 {
+  opacity: 1;
+}
+.tekst {
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 220px;
+  height: 300px;
+  position: absolute;
+
+  left: 40%;
+  top: 150px;
+  opacity: 0;
+}
+.tekst2 {
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  opacity: 1;
+
+  animation: mymove 9s infinite;
+}
+@keyframes mymove {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.body {
+  display: flex;
+  align-items: center;
+}
+.btn-toggle-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  background-image: url("hamburger.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.btn-toggle-nav:hover {
+  opacity: 0.6;
+}
+
+.nav-sidebar {
+  list-style: none;
+  text-decoration: none;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 0px;
+  height: calc(80vh - 60px);
+  background-color: none;
+  z-index: 1000;
+  transition: all 1.5s ease-in-out;
+}
+
+.nav-sidebar ul li {
+  margin: auto;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-sidebar ul li a {
+  line-height: 60px;
+  display: block;
+  height: 60px;
+  width: 100px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(201, 179, 179);
+  white-space: nowrap;
+  z-index: 1000;
+  transition: all 3s ease-in-out;
+}
+.nav-sidebar ul {
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.nav-sidebar ul li a:hover {
+  background-color: rgb(165, 151, 151);
+  opacity: 0.5;
+}
+
+.achtergrondkleur {
+  background-color: darkgray;
+}
+
+.roodbox {
+  background-color: rgb(241, 63, 63);
+  padding: 20px;
+}
+
+.blue-background {
+  background-color: rgb(46, 169, 240);
+}
+.red-background {
+  background-color: rgb(241, 63, 63);
+}
+.blauwbox {
+  background-color: rgb(46, 169, 240);
+  padding: 20px;
+}
+.groenbox {
+  background-color: rgb(120, 204, 148);
+  padding: 20px;
+}
